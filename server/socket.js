@@ -4,7 +4,7 @@ const  { getSocketGameRoom }  = require('./controller/getSocketRoom')
 const socketServer = (Httpserver) => {
 
   const io = new Server(Httpserver, {cors: {
-    origin: 'http://localhost:3000'
+    origin: '*'
   }});
   // socket connection
   io.on('connection', (socket) => {
