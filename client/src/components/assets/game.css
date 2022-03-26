@@ -1,0 +1,39 @@
+.gameContainer {
+  display: flex;
+  flex-direction: column;
+  font-family: "Zen Tokyo Zoo", cursive;
+  position: relative;
+}
+
+.rowContainer {
+  width: 100%;
+  display: flex;
+}
+
+.playStopper  {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 99;
+  cursor: default;
+}
+
+.x {
+  font-size: 100px;
+  color: #8e44ad;
+}
+
+.x::after {
+  content: "X";
+}
+
+.o {
+  font-size: 100px;
+  color: #8e44ad;
+}
+
+.o::after {
+  content: "O";
+}
