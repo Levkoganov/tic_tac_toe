@@ -1,11 +1,9 @@
 
 export const joinGameRoom = (socket, roomId) => {
   return new Promise((resolve, reject) => {
-    setTimeout(() => {
       socket.emit('join_game', { roomId }) 
       socket.on("joined_room", () => resolve(true))
       socket.on("joined_room_error", ({ error }) => reject(error))
-    },1000)
   })
 
 }

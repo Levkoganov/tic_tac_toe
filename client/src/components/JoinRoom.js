@@ -26,7 +26,7 @@ function JoinRoom() {
       }
       
       // create Room
-      const userJoined = await joinGameRoom(socket, roomName);
+      const userJoined = joinGameRoom(socket, roomName);
       
       // connect user to room
       if(userJoined) {
