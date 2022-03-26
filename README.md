@@ -1,4 +1,6 @@
 # tic_tac_toe
+this project is build with:
+socket.io, node.js and react
 
 # How to install:
 
