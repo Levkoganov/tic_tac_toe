@@ -2,6 +2,10 @@
 
 # How to install:
 
-1)npm install (server + client)
+## Server:
+1) npm install.
+2) npm start.
 
-2)npm start (server + client
+## Client:
+1) npm install.
+2) npm start.
